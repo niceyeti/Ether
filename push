@@ -1,0 +1,8 @@
+#!/bin/bash
+
+echo adding, committing, and pushing changes...
+git add -A
+git commit -m "checkpoint"
+git push -u origin master
+echo push completed
+
