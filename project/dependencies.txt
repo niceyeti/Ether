@@ -1,0 +1,14 @@
+To run all this, you'll need:
+pyethereum
+serpent
+hashlib
+rsa
+
+to install these, use:
+sudo pip install pyethereum
+sudo pip install hashlib
+sudo pip install serpent
+
+
+If any installs fail, try just re-running the above commands. This often works because pip screws up the install
+order of dependencies, and has them by the second attempt to install.
