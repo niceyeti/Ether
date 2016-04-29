@@ -8,8 +8,8 @@ Note changing/re-compiling this file will screw up its hash on disk, if already 
 int main(int argc, char** argv)
 {
 	int i;
-
-	printf("\tEvil executable running...\n");
+	char line[256];
+    FILE *file = NULL;
 
 	if(argc > 2){
 		printf("Host received update %s: ",argv[0]);
@@ -18,6 +18,15 @@ int main(int argc, char** argv)
 		}
 		printf("\n");
 	}
+
+   file = fopen ("evil.txt", "r" );
+   if ( file != NULL )
+   {
+      while ( fgets ( line, sizeof line, file ) != NULL ){ /* read a line */
+         fputs ( line, stdout ); /* write the line */
+      }
+      fclose ( file );
+   }
 
 	return 0;
 }

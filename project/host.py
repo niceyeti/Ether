@@ -23,9 +23,9 @@ class Host(object):
 		Clients (in this case just a test simulator) can call this to demonstrate which exe a "host" hast.
 		"""
 		#Run the exe
-		print("Host "+str(self.hostNumber)+" running current exe: "+self.exePath)
 		subprocess.call([self.exePath])
-		
+		print("    ^--- Host "+str(self.hostNumber)+" running current exe: "+self.exePath)
+
 	def Receive(self,b64data):
 		"""
 		This would normally block in a read()/listen() call on a socket, but here just receives

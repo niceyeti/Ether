@@ -12,8 +12,8 @@
 int main(int argc, char** argv)
 {
 	int i;
-
-	printf("\tNew executable running...\n");
+	char line[256];
+    FILE *file = NULL;
 
 	if(argc > 2){
 		printf("Host received update %s: ",argv[0]);
@@ -23,6 +23,14 @@ int main(int argc, char** argv)
 		printf("\n");
 	}
 
+   file = fopen ("new.txt", "r" );
+   if ( file != NULL )
+   {
+      while ( fgets ( line, sizeof line, file ) != NULL ){ /* read a line */
+         fputs ( line, stdout ); /* write the line */
+      }
+      fclose ( file );
+   }
 	return 0;
 }
 
