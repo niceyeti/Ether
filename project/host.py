@@ -2,6 +2,7 @@ import socket
 import signature
 import update
 import subprocess
+import time
 
 class Host(object):
 	def __init__(self,address,port,hostNumber,hostKey,contract,prvKeyPath,pubKeyPath,trustedPubKeyPath):
@@ -24,7 +25,9 @@ class Host(object):
 		"""
 		#Run the exe
 		subprocess.call([self.exePath])
+		time.sleep(0.1)
 		print("    ^--- Host "+str(self.hostNumber)+" running current exe: "+self.exePath)
+		time.sleep(0.1)
 
 	def Receive(self,b64data):
 		"""

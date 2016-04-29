@@ -1,0 +1,530 @@
+jesse@jesse-1015E:~/Desktop/Eth/test/project$ python runSimulation.py --evil
+building tester and contract...
+jesse: lang= <function <lambda> at 0x7f03be496a28>
+Initializing host folders, keys, and initial executable...
+Simulating current host exe's...
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 1 running current exe: h1/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 2 running current exe: h2/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 3 running current exe: h3/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 4 running current exe: h4/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 5 running current exe: h5/myExe.exe
+Host 1 verified signature of update..
+Host 2Untrusted or corrupted file received; update aborted.
+Host 3 verified signature of update..
+Host 4 verified signature of update..
+Host 5 verified signature of update..
+Host 1 registered signature on block.
+Host 2 registered signature on block.
+Host 3 registered signature on block.
+Host 4 registered signature on block.
+Host 5 registered signature on block.
+WARNING Host 1 found unverified host 2 signature
+Host 1 verified only 4 signatures on block.
+WARNING Host 2 found unverified host 1 signature
+WARNING Host 2 found unverified host 3 signature
+WARNING Host 2 found unverified host 4 signature
+WARNING Host 2 found unverified host 5 signature
+Host 2 verified only 1 signatures on block.
+WARNING Host 3 found unverified host 2 signature
+Host 3 verified only 4 signatures on block.
+WARNING Host 4 found unverified host 2 signature
+Host 4 verified only 4 signatures on block.
+WARNING Host 5 found unverified host 2 signature
+Host 5 verified only 4 signatures on block.
+Simulating current host exe's...
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 1 running current exe: h1/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 2 running current exe: h2/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 3 running current exe: h3/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 4 running current exe: h4/myExe.exe
+
+                                      eTRL                                            
+                                     M!!!9                                            
+                                      #@@                                             
+                                       RX)                                            
+                                       RMR                                            
+                                       RM$                                            
+                                       RMM                                            
+                                       B8WL                                           
+                                      @XUUUUN...                                      
+                                  z@TMMMMMMMMMMMMMRm.                                 
+                               uRMMMMMMMMMMMMMMMMMMMMRc                               
+                             :5MMMMMMMMMMMMMMMMMMMMMMMM$.                             
+                            dMMMMMMMMMMMMMMMMMMMMMMMMMMMMr                            
+                           JMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM.                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$                           
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM)                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMR                          
+                           MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM$....                      
+                           MMMMMMM8*TTTTTTT???!!!!!!!!!!!!!!!!!!!?N.                  
+                           3MMMM8?!!U*$$$$$$$$$$$$$$$$$$$$**$$$$$N!!N                 
+                           4XMM$!!XF~~~~~~"#*$$$$$$R#"~~~~~~~$$$$$$!!)                
+                           4XMME!!$~~~~~~~~~~~~~?~~~~~~~(:::~?$$$$$R!)                
+                           'MMM!!!&~~~~~~4$$E~~~X~~~~~~~3$$E~4$$$$$E!)                
+                            EM9!!!M:~~~~~~""!~~~6~~~~~~~~~~~($$$$$$!9                 
+                            RM@!!!!?i:~~~~~~~~($$N~~~~~~~~~\$$$$$#!XF                 
+                            $MMB!!!!!!!TT#**@******##TTTTTT?!!!!!U#                   
+                            MMMMN!!!!!!!!!!!!!!!!!!!!!!!!!!!!!U#                      
+                            tMMMMMRR@@@*RRMHHMMMMMHHHMMRTTRR@                         
+                            4XMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM9                         
+                            'MMMMMMMMMMMMMMM86QQQQQ8MMMMMMMM9                         
+                             EMMMMMMMM8*"~~~~f~~~~t~~~~~RMMM@                         
+                             RMMMMMSF~~R~~~~(!~~~~$~~~~~$#"                           
+                             $MMMMMF~~~Kuuii@m+++*$*++mmR                             
+                             MMMMM9~~~!!~~~~@(::XuBL::~~R                             
+             .um=*#""""""#*=+@MMMMMN+*#F~~~~M~~~~~X~~~~~$"~:~~~~~~~:("?%u.            
+         z*"~~~~~~~~~~~~~~~~~?MMMMMMK~~F~~~~?:~~~~$~~~~~M~~~~~~~~~~~~~~~~~~%u         
+      z"(~~~~~~~~~~~~~~~~~~~~~RMMMMMMRi$~:Xuu9emmm@@@%mmhi~~~~~~~~~~~~~~~~~~~^h       
+    z"~~~~~~~~~~~~~~~~~~~~~~~~RMMMMMMMMMMMMMMMMMMMMMMMMMMM&~~~~~~~~~~~~~~~'#C#=@c     
+   f.ue~~~~~~~~~~~^""#*+iL:~~~$MMMMMMMMMMMMMMMMMMMMMMMMMMMR~~~~~~~~~~~~~~~~~~?L       
+  "  F~~~~~~~~~~~~~~~~~~~~~:~"*8MMQ8N@*#TTT?!!!!!!!!!!!!?TT%miF~~~~~~~~~~~~~~~~$T*c   
+    F~~~~~~~~~~~~~~~~~~~~~~~~~~~~~?tX!!!!!!!!!!!!!!!!!!!!!!!XF~~~~~~~~~~~~~~~~~~N!!?k 
+   @.zm%i:~~~~~~~~~~~~~~~~~~~~~~~~~~~"*X!!!!!!!!!!!!!!!!!!!W"~~~~~~~~~~~~~"#NX!!!!!!!k
+   d!!!!!!N/~~~~~~~~~~~~~~~~~~~~~~~~~~~~?t!!!!!!!!!!!!!!!!@~~~~~~~~~~~~~~~~~~~~#X!!!!9
+  d!!!!!!!!?$RRRRRRRRRRRRNmi.~~~~~~~~~~~~~~N!!!!!!!!!!!!XF~~~~~~~~~~~~~(uz@$RRN!!!!!!!
+  E!!!!!!!!!!$MMMMMMMMMMMM$?"~~~~~~~~~~~~~~~^N??!!!!!!XF~~~~~~~~~~.z@RMMMMMMMMM&!!!!!!
+ 4!!!!!!!!!!!!$MMMMMMMMMMMMMMR$mL~~~~~~~~~~~~~?X!!!!!XF~~~~~~~:eRMMMMMMMMMMMMMM$!!!!!!
+ 4!!!!!!!!!!!!?MMMMMMMMMMMMMMMMMMMMRmL~~~~~~~~~~N!!!!F~~~~~:@RMMMMMMMMMMMMMMMMMM&!!!!!
+ 4WRR$W!!!!!!!!9MMMMMMMMMMMMMMMMMMMMMMMRNi:~~~~~:N!!@~~~~zRMMMMMMMMMMMMMMMMMMMMM$!!!!9
+    ^--- Host 5 running current exe: h5/myExe.exe
+

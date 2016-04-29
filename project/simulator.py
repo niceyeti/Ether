@@ -85,7 +85,6 @@ class Simulator(object):
 		print("Simulating current host exe's...")
 		for h in self.hosts:
 			h.RunExe()
-			time.sleep(1.0)
 
 	def GoodUpdateAllHosts(self):
 		"""
