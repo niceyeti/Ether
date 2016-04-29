@@ -13,7 +13,7 @@ int main(int argc, char** argv)
 {
 	int i;
 
-	printf("\tOld hello\n");
+	printf("\tNew executable running...\n");
 
 	if(argc > 2){
 		printf("Host received update %s: ",argv[0]);

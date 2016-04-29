@@ -109,10 +109,8 @@ class Notary(object):
 		h = SHA256.new(data)
 		verifier = PKCS1_v1_5.new(key)
 		if verifier.verify(h, signature):
-			print("The signature is authentic.")
+			#print("The signature is authentic.")
 			auth = True
-		else:
-			print("The signature is not authentic.")
 
 		return auth
 

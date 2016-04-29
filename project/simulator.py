@@ -3,16 +3,22 @@ import update
 import os
 import stat
 import host
+import time
 
 class Simulator(object):
-	def __init__(self,goodExePath,evilExePath,folderList,contract):
-		self.goodExePath = goodExePath
+	def __init__(self,newExePath,initialExePath,evilExePath,folderList,contract):
+		self.newExePath = newExePath
+		self.initialExePath = initialExePath
 		self.evilExePath = evilExePath
 		self.hostFolders = folderList
 		self._pubKeyPath = "./pubKey.pem"
 		self._prvKeyPath = "./prvKey.pem"
+		#build the executable that the hosts will have initially
+		self.initialUpdate = update.Update()
+		self.initialUpdate.SetData(self.initialExePath)
+		#build the update to be sent to the hosts
 		self.goodUpdate = update.Update()
-		self.goodUpdate.SetData(self.goodExePath)
+		self.goodUpdate.SetData(self.newExePath)
 		self.evilUpdate = update.Update()
 		self.evilUpdate.SetData(self.evilExePath)
 		self._notary = signature.Notary()
@@ -29,7 +35,7 @@ class Simulator(object):
 			-the secured exe "hello.exe"
 		"""
 		success = False
-		print("initializing host folders, keys, and initial executable...")
+		print("Initializing host folders, keys, and initial executable...")
 		if self._initializeHostFolders():
 			#make the simulator's own RSA keys
 			self._notary.MakeRSAKeys(self._pubKeyPath,self._prvKeyPath)
@@ -50,9 +56,9 @@ class Simulator(object):
 		for folder in self.hostFolders:
 			if os.path.isdir(folder):
 				#create this hosts initial local exe (just overwrite if it already exists,for testing)
-				hostExePath = folder+"/hello.exe"
+				hostExePath = folder+"/myExe.exe"
 				f = open(hostExePath,"w+")
-				f.write(self.goodUpdate.Data)
+				f.write(self.initialUpdate.Data)
 				f.close()
 				#make the file executable
 				st = os.stat(hostExePath)
@@ -76,9 +82,10 @@ class Simulator(object):
 		Tell each host to run their current exe. This is just to demonstrate
 		which file each host has, where the exe is just some message like "good hello world"/"evil hello world"
 		"""
-		print("simulating current host exe's...")
+		print("Simulating current host exe's...")
 		for h in self.hosts:
 			h.RunExe()
+			time.sleep(0.5)
 
 	def GoodUpdateAllHosts(self):
 		"""

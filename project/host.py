@@ -10,7 +10,7 @@ class Host(object):
 		self.hostNumber = hostNumber
 		self.hostKey = hostKey
 		self.contract = contract
-		self.exePath = "h"+str(hostNumber)+"/hello.exe"	
+		self.exePath = "h"+str(hostNumber)+"/myExe.exe"	
 		self.prvKeyPath = prvKeyPath
 		self.pubKeyPath = pubKeyPath
 		self.trustedPubKeyPath = trustedPubKeyPath
@@ -37,11 +37,11 @@ class Host(object):
 		if self.update.Deserialize(b64data):
 			#verify the signature of the update
 			if self.update.Verify(self.trustedPubKeyPath):
-				#print("Host "+str(self.hostNumber)+" received valid update")
+				print("Host "+str(self.hostNumber)+" verified signature of update..")
 				success = True
 			else:
 				#untrusted data received, host should now go back to init state and listen for incoming data
-				print("Untrusted or corrupted file received; update aborted.")
+				print("Host "+str(self.hostNumber)+"Untrusted or corrupted file received; update aborted.")
 		else:
 			print("ERROR update could not be deserialized by host "+str(self.hostNumber))
 
@@ -125,9 +125,11 @@ class Host(object):
 				print("WARNING Host "+str(self.hostNumber)+" found unverified host "+str(i)+" signature")
 
 		if validSigs == 5:
-			print("Host "+str(self.hostNumber)+" verified all signatures on block.")
+			print("Host "+str(self.hostNumber)+" verified all signatures on block, committing update.")
 			#commit
-
+			f = open(self.exePath,"w+")
+			f.write(self.update.Data)
+			f.close()
 			success = True
 		else:
 			print("Host "+str(self.hostNumber)+" verified only "+str(validSigs)+" signatures on block.")

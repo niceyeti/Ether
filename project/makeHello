@@ -1,4 +1,0 @@
-gcc oldExe.c -o oldExe.exe -s -Os
-gcc newExe.c -o newExe.exe -s -Os
-gcc evilExe.c -o evilExe.exe -s -Os
-

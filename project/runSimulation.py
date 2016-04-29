@@ -23,7 +23,7 @@ print("building tester and contract...")
 s = tester.state()
 c = s.abi_contract("consensusContract.se")
 
-simulator = sim.Simulator("goodHello.exe","evilHello.exe",["./h1","./h2","./h3","./h4","./h5"],c)
+simulator = sim.Simulator("newExe.exe","oldExe.exe","evilExe.exe",["./h1","./h2","./h3","./h4","./h5"],c)
 
 if simulator.Init():
 	if "--good" in sys.argv:

@@ -9,7 +9,7 @@ int main(int argc, char** argv)
 {
 	int i;
 
-	printf("\tEvil hello\n");
+	printf("\tEvil executable running...\n");
 
 	if(argc > 2){
 		printf("Host received update %s: ",argv[0]);
