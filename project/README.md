@@ -22,7 +22,7 @@ To run the simulations:
 	0) Set up the test environment:
 			sh runSetup
 
-	1) Run the "good" use-case:
+	1) Run the "good" scenario (successful primary use-case of an update distribution):
 
 			python runSimulation --good
 
@@ -30,7 +30,7 @@ To run the simulations:
 		blockchain, reach consensus, and then install the new executable. The nodes run their executables before and
 		after the exe install, so you should see Bender turn into a Penguin.
 
-	2) Run the "evil" use-cae:
+	2) Run the "evil" attack scenario:
 			
 			python runSimulation --evil
 
