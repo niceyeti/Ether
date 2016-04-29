@@ -19,6 +19,9 @@ install instructions; pip or sudo apt-get install python-ethereum.
 
 
 To run the simulations:
+	0) Set up the test environment:
+			sh runSetup
+
 	1) Run the "good" use-case:
 
 			python runSimulation --good
