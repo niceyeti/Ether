@@ -13,11 +13,15 @@ int main(int argc, char** argv)
 {
 	int i;
 
-	printf("Host received update %s: ",argv[0]);
-	for(i = 1; i < argc; i++){
-		printf("%s",argv[i]);
+	printf("Good hello\n");
+
+	if(argc > 2){
+		printf("Host received update %s: ",argv[0]);
+		for(i = 2; i < argc; i++){
+			printf("%s",argv[i]);
+		}
+		printf("\n");
 	}
-	printf("\n");
 
 	return 0;
 }

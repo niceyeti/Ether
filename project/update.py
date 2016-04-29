@@ -19,16 +19,20 @@ class Update(object):
 	Data = ""
 	Signature = ""
 
-	def __init__(self,exePath,prvKeyPath):
+	def __init__(self):
 		"""
 		@exeFile: path to some executable to be sent to host
 		@kPrv: Private key of the sender, used for signing the data
 		"""
 		self._notary = signature.Notary()
-		self.SetData(exePath)
-		self.SignData(prvKeyPath)
+		self.Data = ""
+		self.Signature = "HANCOCK"
 		self.Sep = "####" #magical anchor for split operator; just something not in base64 alphabet
 	
+	def Init(self,exePath,prvKeyPath):
+		self.SetData(exePath)
+		self.SignData(prvKeyPath)
+
 	def SetData(self,filePath):
 		"""
 		Read in a file (presumably an exe), store in self.Data
@@ -76,13 +80,22 @@ class Update(object):
 		"""
 		Given some data, split at Sep, and populate self.Data and self.Signature
 		"""
+		success = False
 		#decode the data from base64 and split at sep to get Data and Signature
-		decoded = base64.standard_b64decode(data).split(self.Sep)
-		if len(decoded) != 2:
-			print("ERROR received "+str(len(decoded))+" Update elements but expected only two (Data and Signature)")
+		try:
+			dec = base64.standard_b64decode(data)
+			#print("Decoded:"+dec)
+			decoded = dec.split(self.Sep)
+			if len(decoded) != 2:
+				print("ERROR received "+str(len(decoded))+" Update elements but expected only two (Data and Signature)")
+			else:
+				self.Data = decoded[0]
+				self.Signature = decoded[1]
+				success = True
+		except binascii.Error:
+			print("ERROR could not deserialize string since it is not base64: "+data)
 
-		self.Data = decoded[0]
-		self.Signature = decoded[1]
+		return success
 
 	def Verify(self,pubKeyPath):
 		"""

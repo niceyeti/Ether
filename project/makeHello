@@ -1,0 +1,3 @@
+gcc goodHello.c -o goodHello.exe -s -Os
+gcc evilHello.c -o evilHello.exe -s -Os
+

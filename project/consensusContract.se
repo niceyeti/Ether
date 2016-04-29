@@ -1,0 +1,185 @@
+#The Serpent code for the consensus block.
+#There is no authentication wrt this block, just assume those parts exist since they
+#can be implemented in Serpent/ethereum.
+#
+#The contract stores a table of keys that map to signed file hashes. Logically,
+#each host places a signed hash in its table entry, and any other host can query
+#the table to get the hashes left by other hosts (so they could verify eachother, if
+#needed). The table indices should be keys, but currently they are just numbers 0-9,
+#where 0 is for host-0, 9 for host-9. So there is no authentication wrt hosts adding
+#their signatures, but just assume this exists since the artifacts for doing so exist.
+#
+#Serpent contracts are a pain due to lack of debugging tools, so if making changes, only
+#make them incrementally: change a little, re-run test, fix anything you broke, make another
+#small change, re-test, etc; avoid big changes at all costs. When contracts break, the errors
+#are indecipherable.
+#
+#Returning True/False does not work in Serpent (why??), but ints do, so return 0 for False, 1 for True.
+#
+#
+#alloc the host key->hash table for 10 hosts. The first item of each column is assumed
+#to be a key (for now, just an int 0-9), and the second item is some file hash signed by the
+#host with this key.
+data h1Cert[256]
+data h2Cert[256]
+data h3Cert[256]
+data h4Cert[256]
+data h5Cert[256]
+
+#Not currently used, but such a threshold could determine when a block had gained sufficient consensus,
+#such that any host could query the contract to make sure it was okay to commit. This would demo the
+#automated paradigms of self-executing cnotracts, albeit very simply.
+consensusThreshold = 6
+
+#This is the contract's ctor, executed before all other code. Here, sets up the registration table and host keys.
+def init():
+	i = 0
+
+	while i < 256:
+		h1Cert[i] = 999
+		h2Cert[i] = 999
+		h3Cert[i] = 999
+		h4Cert[i] = 999
+		h5Cert[i] = 999
+		i+=1
+
+#Given a table index, get the host's key.
+#def getHostKey2(index):
+#	return self.registrations[index][0]
+
+def readHash2(hostNumber):
+	a = array(256)
+	i = 0
+
+	if hostNumber == 1:
+		while i < 256:
+			a[i] = self.h1Cert[i]
+			i+=1
+	if hostNumber == 2:
+		while i < 256:
+			a[i] = self.h2Cert[i]
+			i+=1
+	if hostNumber == 3:
+		while i < 256:
+			a[i] = self.h3Cert[i]
+			i+=1
+	if hostNumber == 4:
+		while i < 256:
+			a[i] = self.h4Cert[i]
+			i+=1
+	if hostNumber == 5:
+		while i < 256:
+			a[i] = self.h5Cert[i]
+			i+=1
+
+	return(a:arr)
+
+#Given up a host's key, get the hash registered by that host.
+#Returns -1 if not found.
+#def readHash2(hostKey):
+#	hsh = array(256)
+#	i = 0
+#
+#	while i < 256:
+#		hsh[i] = self.h1Cert[i]
+#		i+=1
+#
+#	return(hsh:arr)
+
+
+#Given up a host's key, get the hash registered by that host.
+#Returns -1 if not found.
+#def readHash(hostKey):
+#	hash = -1
+#	i = 0
+#
+#	while i < 10:
+#		if self.registrations[i][0] == hostKey:
+#			hash = self.registrations[i][1]
+#		i+=1
+#
+#	return hash
+
+def passArray(a:arr):
+	a[0] = 99
+	return(a:arr)
+
+#def getCert():
+#	a = array(256)
+#	i = 0
+#	while i < 256:
+#		a[i] = self.h1Cert[i]
+#		i+=1
+#
+#	return(a:arr)
+
+
+#A host submits their hash using this. The py crypto signatures give back a 256char
+#string, which isn't convenient to keep in the blockchain. So pass some number representation
+#instead, such as sum of chars in the hash, etc.
+def registerHash2(hostKey,hsh:arr):
+	success = 1
+	i = 0
+
+	while i < len(hsh) and i < 256:
+		self.h1Cert[i] = hsh[i]
+		i+=1
+
+	return success
+
+#A host submits their hash using this. The py crypto signatures give back a 256char
+#string, which isn't convenient to keep in the blockchain. So pass some number representation
+#instead, such as sum of chars in the hash, etc.
+def copyHashBlock(hostKey,offset,hsh:arr):
+	success = 1
+	i = 0
+	j = 0
+
+	if hostKey == 1:
+		while i < len(hsh) and i < 256:
+			j = i + offset
+			self.h1Cert[j] = hsh[i]
+			i+=1
+	if hostKey == 2:
+		while i < len(hsh) and i < 256:
+			j = i + offset
+			self.h2Cert[j] = hsh[i]
+			i+=1
+	if hostKey == 3:
+		while i < len(hsh) and i < 256:
+			j = i + offset
+			self.h3Cert[j] = hsh[i]
+			i+=1
+	if hostKey == 4:
+		while i < len(hsh) and i < 256:
+			j = i + offset
+			self.h4Cert[j] = hsh[i]
+			i+=1
+	if hostKey == 5:
+		while i < len(hsh) and i < 256:
+			j = i + offset
+			self.h5Cert[j] = hsh[i]
+			i+=1
+
+	return success
+
+
+#A host submits their hash using this. The py crypto signatures give back a 256char
+#string, which isn't convenient to keep in the blockchain. So pass some number representation
+#instead, such as sum of chars in the hash, etc.
+#def registerHash(hostKey,hash):
+#	success = 0
+#
+#	#make the hash, in this case just the sum of characters in hashStr
+#	i = 0
+#	while i < 10:
+#		if self.registrations[i][0] == hostKey:
+#			self.registrations[i][1] = hash
+#			success = 1
+#		i+=1
+#
+#	return success
+#
+#d = array(5)
+#return(sha256(d,items=5))
+
