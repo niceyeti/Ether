@@ -29,6 +29,7 @@ class Simulator(object):
 			-the secured exe "hello.exe"
 		"""
 		success = False
+		print("initializing host folders, keys, and initial executable...")
 		if self._initializeHostFolders():
 			#make the simulator's own RSA keys
 			self._notary.MakeRSAKeys(self._pubKeyPath,self._prvKeyPath)
@@ -51,17 +52,16 @@ class Simulator(object):
 				#create this hosts initial local exe (just overwrite if it already exists,for testing)
 				hostExePath = folder+"/hello.exe"
 				f = open(hostExePath,"w+")
-				print("writing "+str(len(self.goodUpdate.Data))+" to "+hostExePath)
 				f.write(self.goodUpdate.Data)
 				f.close()
-				#set the file to be executable
+				#make the file executable
 				st = os.stat(hostExePath)
 				os.chmod(hostExePath, st.st_mode | stat.S_IEXEC)
 				#create the host's public and private keys
 				pubKeyPath = folder+"/pubKey.pem"
 				prvKeyPath = folder+"/prvKey.pem"
 				self._notary.MakeRSAKeys(pubKeyPath,prvKeyPath)
-				#build this host: __init__(self,address,port,hostNumber,hostKey,contract,prvKeyPath,pubKeyPath,trustedPubKeyPath):
+				#build this host
 				h = host.Host("127.0.0.1",5555+i,i,i,self.contract,prvKeyPath,pubKeyPath,self._pubKeyPath)
 				self.hosts.append(h)
 				success = True
@@ -76,6 +76,7 @@ class Simulator(object):
 		Tell each host to run their current exe. This is just to demonstrate
 		which file each host has, where the exe is just some message like "good hello world"/"evil hello world"
 		"""
+		print("simulating current host exe's...")
 		for h in self.hosts:
 			h.RunExe()
 

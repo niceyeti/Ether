@@ -22,9 +22,9 @@ class Host(object):
 		"""
 		Clients (in this case just a test simulator) can call this to demonstrate which exe a "host" hast.
 		"""
-		#print("Host "+str(self.hostNumber)+" running exe: "+self.exePath)
+		#Run the exe
+		print("Host "+str(self.hostNumber)+" running current exe: "+self.exePath)
 		subprocess.call([self.exePath])
-		#Run the exe using subprocess
 		
 	def Receive(self,b64data):
 		"""
@@ -80,9 +80,10 @@ class Host(object):
 		"""
 		success = False
 		signature = self.notary.Sign(self.update.Data,self.prvKeyPath)
-		print("host "+str(self.hostKey)+" registering signature of len "+str(len(signature))+"  "+str(list(signature)))
+		#print("host "+str(self.hostKey)+" registering signature of len "+str(len(signature))+"  "+str(list(signature)))
 		if self._registerSignature(signature):
-			print("Host "+str(self.hostNumber)+ " with key "+str(self.hostKey)+" registered signature on block: "+str(signature))
+			#print("Host "+str(self.hostNumber)+ " with key "+str(self.hostKey)+" registered signature on block: "+str(signature))
+			print("Host "+str(self.hostNumber)+" registered signature on block.")
 			success = True
 		else:
 			print("ERROR host "+str(self.hostKey)+" failed to register signature on block: "+str(signature))

@@ -40,7 +40,7 @@ if simulator.Init():
 		simulator.GoodUpdateAllHosts()
 		simulator.RegisterAll()
 		simulator.RepollAll()
-		#simulator.RunHostExes()
+		simulator.RunHostExes()
 
 	elif "--evil" in sys.argv:
 		"""

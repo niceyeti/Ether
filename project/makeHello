@@ -1,3 +1,4 @@
-gcc goodHello.c -o goodHello.exe -s -Os
-gcc evilHello.c -o evilHello.exe -s -Os
+gcc oldExe.c -o oldExe.exe -s -Os
+gcc newExe.c -o newExe.exe -s -Os
+gcc evilExe.c -o evilExe.exe -s -Os
 
